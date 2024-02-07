@@ -97,7 +97,7 @@ export default function Intro() {
             href='/Rob_Simmons_Resume.pdf'
             download
           >
-            Download CV{" "} 
+            Download Résumé{" "} 
             <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
           </a>
 
