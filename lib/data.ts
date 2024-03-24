@@ -7,6 +7,7 @@ import gericht from "@/public/gericht.png";
 import journeyJunction from "@/public/journeyJunction.png"
 import marvel from "@/public/marvel.png"
 import todo_list from "@/public/todo_list.png"
+import urbanRoaster from "@/public/urbanRoaster.png"
 
 export const links = [
   {
@@ -78,6 +79,13 @@ export const projectsData = [
     imageUrl: gericht,
   },
   {
+    title: "Urban Roaster",
+    description:
+      "Whether You're A Coffee Connoisseur Or Just Dipping Your Toe Into The Coffee World, It Can Be Hard To Sort Through All The Options Available. We Know Everyone Has Different Tastes—So Let Us Take The Mystery Out Of Choosing Your Next Bag!",
+    tags: ["HTML", "Astro", "CSS", "Typescript"],
+    imageUrl: urbanRoaster,
+  },
+  {
     title: "JourneyJunction",
     description:
       "JunctionJourney connects global adventurers, allowing you to share and explore vibrant experiences through captivating images, titles, and captions. Join now to embark on a worldwide expedition of wanderlust.",
@@ -105,6 +113,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "React",
+  "Astro",
   "Node.js",
   "Git",
   "Tailwind",
